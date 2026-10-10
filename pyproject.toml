@@ -1,0 +1,19 @@
+[project]
+name = "dbai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Corbin Christiansen", email = "cpc2004@byu.edu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=2.29.0",
+]
+
+[project.scripts]
+dbai = "dbai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
