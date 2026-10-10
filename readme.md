@@ -12,4 +12,4 @@ This example represents the mock data to manage an upcoming dogshow.
 * **responses_\<strategy>_\<time>.json**: The output logs that record the provided prompts and questions, as well as the generated SQL queries and natural language responses.
 
 ## Prompting Strategies Used
-This project attempts to try out the three strategies “zero-shot, single-domain, and cross-domain” as outlined in this paper: https://arxiv.org/abs/2305.11853 <- read it 😊
+This project attempts to try out two of the three strategies “zero-shot, single-domain, and cross-domain” as outlined in this paper: https://arxiv.org/abs/2305.11853 <- read it 😊
