@@ -174,7 +174,7 @@ LIMIT 1;
 
 **Response:** The longest game in terms of moves is game number 1!
 
-Another logged response included the tournament and move count:
+The `single_domain_double_shot` response to the same question included the tournament and move count:
 
 ```sql
 SELECT
